@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Your Simple Blog</title>
-    
+    <meta charset="UTF-8">
     <!-- Favicon Implementation -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!-- If you're using PNG or SVG, replace with the correct format -->
