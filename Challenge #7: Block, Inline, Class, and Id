@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Simple Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon Implementation -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- CSS Style Section -->
+    <style>
+        /* Block elements (take up full width by default) */
+        header, section, footer {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Inline element (doesn't break the flow, inside block) */
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        /* Class for reusable styles */
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        /* ID for specific elements (unique on a page) */
+        #main-header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #about-section {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 15px;
+        }
+
+        /* Additional Class for flexible use */
+        .important-text {
+            color: red;
+            font-size: 1.2em;
+        }
+
+        /* Styling navigation */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a:hover {
+            color: darkred;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Block element with ID -->
+    <header id="main-header">
+        <h1>Welcome to My Simple Blog</h1>
+    </header>
+
+    <!-- Navigation with inline elements inside block elements -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area -->
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>This is the home section of the blog.</p>
+        <p>Some inline text: <a href="#">Visit Link</a> and <span class="highlight">this is highlighted text.</span></p>
+    </section>
+
+    <!-- Section with ID and class usage -->
+    <section id="about-section">
+        <h2>About Section</h2>
+        <p>This is the about section. <span class="important-text">This text is important</span> and styled differently.</p>
+    </section>
+
+    <!-- Contact section with class usage -->
+    <section id="contact">
+        <h2>Contact Section</h2>
+        <p>You can contact us via email at <a href="mailto:info@example.com" class="highlight">info@example.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Simple Blog</p>
+    </footer>
+</body>
+</html>
