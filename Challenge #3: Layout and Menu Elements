@@ -45,3 +45,92 @@
     </footer>
 </body>
 </html>
+
+
+
+
+/* Basic reset and typography */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+/* Header styling */
+.main-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Navigation styling */
+.main-nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.main-nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Main content layout */
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content section {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    .main-nav ul li {
+        display: block;
+        text-align: left;
+    }
+
+    .main-nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
