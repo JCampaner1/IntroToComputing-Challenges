@@ -1,0 +1,61 @@
+<!-- Section for Optional How-Tos -->
+<section id="how-tos-addon">
+    <h2>How-Tos (Addon) - Optional</h2>
+    
+    <!-- Optional How-To 1 -->
+    <article>
+        <h3>How to Bookmark This Website</h3>
+        <ol>
+            <li>Click the bookmark icon in your browser's address bar.</li>
+            <li>Choose a folder to save the bookmark, or leave it in the default location.</li>
+            <li>Click "Done" to save the bookmark for easy access later.</li>
+        </ol>
+    </article>
+
+    <!-- Optional How-To 2 -->
+    <article>
+        <h3>How to Share the Website</h3>
+        <ol>
+            <li>Copy the URL from the address bar of your browser.</li>
+            <li>Open your favorite social media platform or messaging app.</li>
+            <li>Paste the URL in a new post or message and share it with your friends or followers.</li>
+        </ol>
+    </article>
+
+    <!-- Optional How-To 3 -->
+    <article>
+        <h3>How to Enable Dark Mode (If available)</h3>
+        <ol>
+            <li>Go to your browser's settings.</li>
+            <li>Search for "Dark Mode" or "Appearance" settings.</li>
+            <li>Toggle "Dark Mode" on to change the background to a darker theme, if supported by your browser.</li>
+        </ol>
+    </article>
+</section>
+
+
+/* Optional How-Tos Section */
+#how-tos-addon {
+    padding: 2em;
+    background-color: #f0f0f0;
+    margin: 20px 0;
+}
+
+#how-tos-addon article {
+    margin-bottom: 20px;
+}
+
+#how-tos-addon h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#how-tos-addon ol {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#how-tos-addon li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
