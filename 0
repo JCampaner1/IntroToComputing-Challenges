@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Simple Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a simple website showcasing basic web design with HTML.">
+    <meta name="keywords" content="simple, website, HTML, web design, basic">
+    <meta name="author" content="[Your Name]">
+    
+    <!-- Favicon Implementation -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Link to External CSS File -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Block element with ID -->
+    <header id="main-header">
+        <h1>Welcome to My Simple Blog</h1>
+    </header>
+
+    <!-- Navigation with inline elements inside block elements -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area -->
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>This is the home section of the blog.</p>
+        <p>Some inline text: <a href="#">Visit Link</a> and <span class="highlight">this is highlighted text.</span></p>
+    </section>
+
+    <!-- Section with ID and class usage -->
+    <section id="about-section">
+        <h2>About Section</h2>
+        <p>This is the about section. <span class="important-text">This text is important</span> and styled differently.</p>
+    </section>
+
+    <!-- Contact section with class usage -->
+    <section id="contact">
+        <h2>Contact Section</h2>
+        <p>You can contact us via email at <a href="mailto:info@example.com" class="highlight">info@example.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Simple Blog</p>
+    </footer>
+</body>
+</html>
